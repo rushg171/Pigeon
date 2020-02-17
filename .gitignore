@@ -1,3 +1,7 @@
+#Modules
+*node_modules
+node_modules*
+
 # Logs
 logs
 *.log
