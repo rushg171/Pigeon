@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { databaseServer } = require("./utils/config.js");
+const { databaseServer } = require("./utils/config.js.js");
 
 try {
   mongoose.connect(
