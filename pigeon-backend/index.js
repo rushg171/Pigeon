@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const indexRouter = require("./routes/index.js");
 require("./databaseConnection.js");
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8033;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
